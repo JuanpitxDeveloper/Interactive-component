@@ -4,9 +4,9 @@ import SecondArticle from './componentss/SecondArticle';
 import './App.css';
 
 function App() {
-  const [submittedSelection, setSubmittedSelection] = useState(null);
+  const [submittedSelection, setSubmittedSelection] = useState<number | null>(null);
 
-  const handleFirstArticleSubmit = (selection) => {
+  const handleFirstArticleSubmit = (selection: number) => {
     setSubmittedSelection(selection);
   };
 
