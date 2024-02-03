@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import FirstArticle from './componentss/FirstArticle';
 import SecondArticle from './componentss/SecondArticle';
 import './App.css';
